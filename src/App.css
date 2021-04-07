@@ -1,0 +1,65 @@
+.App {
+  font-family: "Roboto", monospace;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.Add {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Task {
+  border-left: 5px solid #2e3b55;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+.Tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.bar {
+  background-color: #000000;
+}
+
+.titleBar {
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+.dueDate {
+  margin-bottom: 30px;
+}
+
+.titleText {
+  color: black;
+}
+
+.optionsIcon {
+  color: black;
+}
+
+.statusBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.statusIcon {
+  color: green;
+}
